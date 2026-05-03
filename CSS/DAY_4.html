@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Position Demo</title>
+  <style>
+    body {
+      height: 2000px; /* for scrolling */
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    h2 {
+      margin: 20px;
+    }
+
+    .box {
+      width: 150px;
+      height: 150px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    /* STATIC */
+    .static {
+      background: gray;
+      position: static;
+    }
+
+    /* RELATIVE */
+    .relative {
+      background: blue;
+      position: relative;
+      top: 20px;
+      left: 20px;
+    }
+
+    /* ABSOLUTE */
+    .parent {
+      position: relative;
+      background: lightgray;
+      height: 300px;
+      margin: 20px;
+    }
+
+    .absolute {
+      background: red;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+
+    /* FIXED */
+    .fixed {
+      background: green;
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      width: 120px;
+      height: 120px;
+    }
+
+    /* STICKY */
+    .sticky {
+      background: purple;
+      position: sticky;
+      top: 0;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Static (normal flow)</h2>
+  <div class="box static">Static</div>
+
+  <h2>Relative (moves but keeps space)</h2>
+  <div class="box relative">Relative</div>
+
+  <h2>Absolute (inside relative parent)</h2>
+  <div class="parent">
+    Parent
+    <div class="box absolute">Absolute</div>
+  </div>
+
+  <h2>Sticky (scroll and stick)</h2>
+  <div class="sticky">I stick to top when you scroll</div>
+
+  <p style="padding: 20px;">
+    Scroll down to see sticky and fixed behavior...
+  </p>
+
+  <h2 style="margin-top: 800px;">Keep Scrolling 👇</h2>
+
+  <!-- FIXED -->
+  <div class="box fixed">Fixed</div>
+
+</body>
+</html>

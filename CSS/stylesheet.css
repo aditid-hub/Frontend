@@ -1,0 +1,69 @@
+/* div{
+    height: 100px;
+    background-color:rgb(228, 167, 196);
+    width: 100px;
+    border: black 20px dotted;
+    border-radius: 50%;
+    border-color: aqua;
+     /* if i keep height and width the same and change the border radius to 50 % , it turns it into circle, also for comment use ctrl+slash
+       */
+    /* padding : 20px;
+    margin: 20px;
+ } */ 
+
+ * {
+    padding :0px;
+    margin : 0px ;
+    color: white;
+ }
+ div {
+    color: black ;
+
+ }
+#logo {
+    font-size : 25px;
+    color: rgb(234, 156, 10) ;
+    
+    
+    
+
+
+}
+#nav-bar {
+    
+    background-color: black;
+    
+    display: flex;
+    padding-left: 20px;
+
+    
+    align-items: center;
+   
+
+
+}
+button{
+    background-color: #f08004;
+}
+#Aditi{
+
+    input{
+        background-color: white;
+        color: grey;
+    }
+    button{
+        background-color:#f08004 ;
+        color: white;
+
+    }
+    
+
+
+}
+#nav-bar a{
+    padding-right:30px;
+    
+}
+
+
+

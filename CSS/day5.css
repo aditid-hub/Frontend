@@ -1,0 +1,82 @@
+*{
+    margin: 5px;
+    
+   
+  
+       
+}
+
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: #64E9EE;
+    font-size: 20px;
+    display: inline-block;
+    color: black;
+.wrapper {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: #E28CF5;
+    color:black;
+    font-size: 20px;
+    display: inline-block;
+}
+#box3{
+    height: 100px;
+    width: 100px;
+    background-color:#B9E6FF;
+    color:black;
+    font-size: 20px;
+    display: inline-block;
+}
+#box4{
+    height: 100px;
+    width: 100px;
+    background-color: #FFA9A3;
+    color:black;
+    font-size: 20px;
+    display: inline-block;
+}
+#box5{
+    height: 100px;
+    width: 100px;
+    background-color: #E9B9FF;
+    color:black;
+    font-size: 10px;
+    display: inline-block;
+    background-image: url('Paw.jpg');
+    background-size: cover;
+   
+
+    
+}
+
+
+div{
+    border: 2px solid black;
+    padding: 10px;
+     vertical-align: top;
+     display: inline-block;
+     opacity: 100%;
+}
+body
+{background-image: url('flower.jpg');
+background-size: cover;
+ background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    
+}
+p{
+    font-size: 10px;
+    margin: 5px;
+    font-family: cursive;
+}
+    

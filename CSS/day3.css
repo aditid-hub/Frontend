@@ -1,0 +1,17 @@
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: rosybrown;
+    color:black;
+    font-size: 10px;
+
+}
+#box2{
+    height: 100px;
+    width: 30%;
+    background-color: rgb(104, 179, 104);
+    color:black;
+    font-size: 2em;
+}
+
+/* if i keep width as 30 percent so vo 30 out of  100 percent of parent ka width hoga */

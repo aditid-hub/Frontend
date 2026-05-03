@@ -1,0 +1,55 @@
+* {
+    font-family: cursive;
+}
+h1 {
+    color: rgb(204, 83, 31) ;
+    background-color: pink ;
+    height: 100px;
+    width:200px;
+
+}
+p{
+    color:beige;
+}
+body{
+    background-color: burlywood;
+    color : #D6D3F0
+
+
+}
+h2 {
+    color: #0B3142
+}
+
+#Heading1 {
+    color: #0B3142;
+    background-color: #D6D3F0;
+}
+#Heading2 {
+    color: #0B3142;
+    background-color: #D6D3F0;
+}
+.Aditi {
+    color: #0B3142;
+    background-color: #D6D3F0;
+}
+button {
+    background-color: #0B3142;
+    color: #D6D3F0;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+p {
+    text-align: center;
+}
+#P {
+    text-align: center;
+    text-shadow: 0.6cm;
+    font-size: 20px;
+}
+div{
+    height: 100px;
+    background-color:rgb(204, 83, 31);
+    width: 100%;
+}
