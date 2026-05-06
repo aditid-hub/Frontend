@@ -1,0 +1,64 @@
+.loader{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+   
+    border: 15px solid #7ad629;
+     border-top: 15px solid #141314;
+    position: relative;
+    /* transition:all; */
+
+
+   
+
+}
+@keyframes colorpicker {
+    
+    
+    
+    0%{
+        background-color:#FFC0CB;
+    }
+    25%{
+        background-color: #F653A6;
+    }
+    50%{
+        background-color: #C54B8C;
+    }
+    75%{
+        background-color: #A8516E;
+    }
+    100%{
+        background-color: #65000B;
+    }
+ }
+    
+
+@keyframes spinanimation {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+     
+.loader{
+   
+    animation: spinanimation 3s steps(3) infinite, colorpicker 5s ease-in-out infinite;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: rotate(360deg);
+    transition:all 5s ease-in;
+    /* animation: spinanimation 3s ease-in infinite; */
+
+}
+/* div:active {
+    
+    transform: rotate(360deg);
+    
+
+
+} */

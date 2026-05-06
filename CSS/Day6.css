@@ -1,0 +1,34 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(223, 55, 83);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid black;
+    position: relative;
+    justify-items: center;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-behavior: inherit;
+   rotate: 90deg;
+   transform: scale(2,2);
+
+
+
+}
+/* transitions */
+div:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    color: #5cda0e;
+    background-color: rosybrown;
+    transform: rotate(360deg);
+    transform: trnaslate(200px);
+}
+div:active {
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+    color: #5cda0e;
+    background-color: rosybrown;}
+/*  psuedo active state means user has clicked on the element then the color changes */
+  
